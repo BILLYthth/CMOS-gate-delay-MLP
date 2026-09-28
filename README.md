@@ -18,7 +18,8 @@ Circuit designers typically rely on repeated SPICE/Cadence simulations to charac
 3. **Model training** — `scikit-learn` `MLPRegressor` with `GridSearchCV` (5-fold CV) to tune architecture/activation/regularization; log-space target transform.
 4. **Evaluation** — MAPE, R², and Q² (cross-validated, pooled out-of-fold predictions) to check for overfitting.
 
-![Pipeline flowchart](docs/pipeline_flowchart.png)
+<img width="597" height="847" alt="pipeline_flowchart" src="https://github.com/user-attachments/assets/bb823e9e-c48b-4b2e-bf8b-b60732b9a333" />
+
 
 ## Results
 
