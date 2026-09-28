@@ -1,0 +1,4 @@
+Gate,label,MAPE_%,MAE_s,R2_log,best_params
+NAND,Test,3.734279602038313,3.848186821746886e-12,0.9969732488674216,"{'mlp__activation': 'tanh', 'mlp__alpha': 0.001, 'mlp__hidden_layer_sizes': (128, 128, 64, 32)}"
+NOR,Test,4.512355571696319,5.370043386205763e-12,0.9957538801385954,"{'mlp__activation': 'tanh', 'mlp__alpha': 0.0001, 'mlp__hidden_layer_sizes': (128, 64)}"
+EXOR,Test,3.6590577555883166,5.5430159539545886e-12,0.9962658875364848,"{'mlp__activation': 'tanh', 'mlp__alpha': 0.001, 'mlp__hidden_layer_sizes': (128, 64)}"
